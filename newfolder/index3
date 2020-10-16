@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Responsive image</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <style>
+body,html
+  {
+     width:100% ; height:100%;
+     background:url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center fixed;
+    -webkit-background-size: cover;
+     background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+    </style>
+  </head>
+  <body >
+    <h1 style="color: blue" class="text-uppercase"> Ayush Kumar</h1>
+    <h2  style="color: red" class="text-lowercase">Roll Number: 1906141</h2>
+    <button type="button" class="btn btn-outline-primary">Try others</button>
+   
+  </body>
+</html>
