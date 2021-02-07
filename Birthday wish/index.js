@@ -88,7 +88,7 @@ window.onload = function(){
     
     /type writer effect logic --------------------/
     var _CONTENT = [ 
-        "Hay There Salu Di", 
+        "Hey There Salu Di", 
         "kaisi hain ? 😌", 
         "Mast hi hongi.", 
         "Acha Wait !",
