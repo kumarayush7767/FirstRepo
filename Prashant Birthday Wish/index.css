@@ -217,7 +217,7 @@ body {
     border-radius:50%;
     margin:0px auto 10px auto;
     background-color:red;
-    background-image:url("saludi2.jpg");
+    background-image:url("dubey2.jpg");
     background-size:cover;
 }
 /content part goes here --------------------/
@@ -254,7 +254,7 @@ body {
     width:100px;
     margin:0 auto 0 auto;
     border-radius:50%;
-    background-image:url("saludi.jpg");
+    background-image:url("dubey1.jpg");
     background-size:cover;
 }
 #profile_name{
@@ -556,7 +556,7 @@ p{
     transform: rotateX(-90deg) translateZ(100px);
     box-shadow: 0 0 10px lightgray;
     background-color:blue;
-    background-image:url("images6.jpg");
+    background-image:url("birthdaycake.jpg");
     background-size:100% 100%;
 }
 @keyframes spin{    
