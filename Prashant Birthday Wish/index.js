@@ -59,7 +59,7 @@ function warning(){
     Swal.fire({
         icon: 'error',
         title: '???? ???? ???? ?? ?? ????',
-        html: 'Aacha bata do kya chahiye 4 - 5 saal me job karne lagenge to de hi denge. Abhi college me papa ke paise ka to nahi dunga.',
+        html: 'Dubey ji aap jiyo hazaro saal.',
         footer: '&copy All rights reserved !'
     });
 }
@@ -77,7 +77,7 @@ window.onload = function(){
     Swal.fire({
         icon: 'success',
         title: 'Welcome',
-        html: 'Happy BIRTHDAY SALU DI',
+        html: 'Happy BIRTHDAY Prashant',
         footer: '&copy All rights reserved !'
     });
     
@@ -88,19 +88,18 @@ window.onload = function(){
     
     /type writer effect logic --------------------/
     var _CONTENT = [ 
-        "Hey There Salu Di", 
-        "kaisi hain ? ??", 
-        "Mast hi hongi.", 
-        "Acha Wait !",
+        "Hey There Dubey Ji", 
+        "kaise hain ? ??", 
+        "Maje me hi honge.", 
+        "Accha Wait !",
         "Wish you a very very happy birthday",
-        "Gaana nahi batai tum",
-        "ye mai apne man se daal diya",
+        "हमारे प्रिय मित्र, दुबे जी को जन्मदिन की लख लख बधाईया एवं शुभकामनाएं🥳🎂🎉🎉🎈🍾🍾"
         "ab isko dekh lo",
         "upper left me teen line",
         "ko click kar do.",
         "Ab dekh ke ja ke birthday manao",
-        "birthday manao aur padho ??",
-        "Bye Bye ?????"
+        "birthday manao aur enjoy kro ??",
+        "Bye Bye... take care bro...?????"
     ];
     var _PART = 0;
     var _PART_INDEX = 0;
