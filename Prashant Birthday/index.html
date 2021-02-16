@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Birthday Wish</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/9d89bb858d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <!-- Loader code -->
+    <div class="loader_container">
+        <div class="loader_sub">
+            <div id="loader_1"></div>
+            <div id="loader_2"></div>
+            <div id="loader_3"></div>
+        </div>
+        <div class="loader_text"></div>
+    </div>
+
+    <!-- A primary cover -->
+    <div id="primary"></div>
+
+
+    <!-- MAIN CONTAINER CODE -->
+    <div class="containt">
+        <!--profile start -->
+        <div class="main_profile">
+            <div class="img"></div>
+            <div id="profile_name">
+                हमारे प्रिय मित्र, दुबे जी को जन्मदिन की लख लख बधाईया एवं शुभकामनाएं🥳🎂🎉🎉🎈🍾🍾
+                From Amit
+                <img style="height:300px ; width: 300px;" src="birthdaycake.jpg"/>
+            </div>
+            <div id="typewriter_container">
+                <div id="text"></div>
+                <div id="cursor">|</div>
+            </div>
+        </div>
+
+        <!-- New section start -->
+    </div>
+
+
+    <!-- BAR CODE -->
+
+    <div class="bar_container">
+        <div class="bar_icon" onclick="bar_function()">
+            <div id="bar_1"></div>
+            <div id="bar_2"></div>
+            <div id="bar_3"></div>
+        </div>
+        <div id="text_hb">
+            Happy Birthday Prashant
+        </div>
+    </div>
+
+    <div class="bar_content_container">
+        <div id="bar_content_1">
+            <div id="bd_image"></div>
+            <div id="bd_name">To Dubey Ji</div>
+        </div>
+        <div id="bar_content_2" onclick="openCake()"><a href="cake.html"><i class="fas fa-birthday-cake"></i> Your Birthday Cake </a></div>
+        <div id="bar_content_3" onclick="openSpin()"><a href="spin.html"><i class="far fa-grin-squint-tears"></i>  Ye pata nahi kya hai dekho</a></div>
+        <div id="bar_content_4" onclick="warning()"><i class="fas fa-gift"></i>  Your Gift </div>
+        <br>
+        <hr style="width:95%;opacity:0.5;">
+        <div id="bar_content_5">Now its end of my present knowledge</div>
+    </div>
+
+    <div class="baloon">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="cover"></div>
+
+
+
+
+    
+    <audio id="aud" controls autoplay loop>
+        <source src="birthday song.mp3" type="audio/mpeg" />
+    </audio>
+</body>
+<script src="index.js"></script>
+
+</html>
